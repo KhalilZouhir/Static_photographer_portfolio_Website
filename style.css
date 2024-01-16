@@ -1,0 +1,319 @@
+*{
+margin : 0;
+}
+
+
+#mypic{
+width: 300px;
+}
+#logo{
+    width:80px;
+    height: 80px;
+}
+a{
+    color: #242424 ;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+    margin: 2px;
+}
+em{
+    color: #A5B4FC;
+    font-style: normal;
+}
+p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.1em;
+    color: #F9F8FF;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    color: #A5B4FC;
+
+}
+h2{
+    color: #F9F8FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+    color:#F9F8FF ;
+}
+.header,.footer{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a,.footer a {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+ 
+  
+body{
+    background-color:#1F2039 ;
+}
+#ctapropo{
+    display: inline-block;
+margin-top: 90px;
+margin-left: 16em;
+}
+.cta{
+    font-family: 'Montserrat';
+    background: linear-gradient(#8e86b5, #acaeed);
+color: white;
+border-radius: 50px;
+padding: 20px 30px;
+
+
+}
+.aproposliste{
+    border-right: 1px solid #A5B4FC ;
+    border-bottom: 1px solid #A5B4FC ;
+    padding: 50px;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.cta:hover{
+    text-decoration: none;
+    background-color: linear-gradient(#696484,#8788BA);
+
+}
+#logo:hover{
+    opacity: 0.9;
+}
+section{
+    padding: 80px;
+}
+.apropossection{
+    margin:auto;
+    width: 50%;
+}
+.aproposliste h2, ul{
+    margin-top: 30px;
+}
+.accueil-photos{
+    display : flex ; 
+    flex-direction: column;
+ align-items: center;
+ background-color: white;
+
+
+}
+.accueil-photos img{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+.accueil-photos h2{
+    margin-bottom: 50px;
+    color: #1F2039;
+}
+.accueil-introduction{
+    display : flex ; 
+    flex-direction: row;
+    width: 50%;
+    align-items:center;
+margin: auto;
+}
+#div1{
+    margin-right: 200px;
+    margin-left: -100px;
+}
+#p1{
+    margin-bottom:70px;
+margin-top: 30px;
+}
+.portfolio-section-photos{
+    background-color: white;
+}
+.paysagespic{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns:450px 450px 450px;
+grid-template-rows: 300px 300px 300px ;
+gap: 15px;
+justify-content: center;
+
+
+}
+.paysagespic img {
+width: 450px;
+height: 300px;
+
+}
+.portfolio-section-photos h2{
+    color: black;
+}
+ #h22{
+    margin: 150px 0 ;
+
+ }
+ .portraitpic{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns:450px 450px 450px;
+grid-template-rows: 300px 300px ;
+gap: 15px;
+justify-content: center;
+
+
+ } 
+ .portraitpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* so the object in the container cover the box */
+
+    }
+  
+  .photo-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+  color: white;
+  display: none;
+  }
+  .lien-conteneur-photo{
+    position: relative; /* we made the link relative so that the <DIV> OUR TExt be set in the middle of the link*/
+  }
+  .lien-conteneur-photo:hover .photo-hover { display: flex;}
+
+  table{
+    margin: auto;
+  
+}
+td,th{
+    border: #A5B4FC 1px solid;
+text-align: center;
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+
+}
+th{
+    padding: 20px;
+}
+td{
+    padding: 80px 130px;
+
+}
+table { width: 100%;
+    color: white;
+border-collapse: collapse;
+    
+}
+caption{
+    font-family: 'Manrope', sans-serif;
+   font-weight: bold;
+    margin-bottom: 60px;
+    font-size: 1.5em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   margin: auto;
+   width:60%;
+   gap:20px
+   
+  
+  }
+  .form-nom-email{
+    display: flex;
+    flex-direction: row;
+    ;
+  }
+  .form-column{ 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .nd{ 
+    display: flex;
+    flex-direction: column;
+  }
+  .section-contact h2{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  textarea,input {
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+  border: none;
+  }
+  label{
+    margin-bottom: 10px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+  }
+  .ctaformulaire{
+    display: flex;
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 50px;
+    
+    padding: 20px 50px ;
+   /*  margin:10px 300px; */
+  }
+  @media screen and (max-width: 1070px) {
+    #mypic{
+        display: none;
+    }
+    .form-nom-email{
+        display: flex;
+        flex-direction: column;
+    }
+   
+  }
+  @media screen and (max-width: 800px) {
+    .ctaformulaire{
+        padding: 10px ;
+    }
+   
+  }
+    @media screen and (max-width: 1167px) {
+        table{
+            display: none;
+        }
+      
+
+    }
+    @media screen and (max-width: 918px) {
+        #ctapropo{
+           margin-left:-5px ;
+        }
+    }
+    @media screen and (max-width: 1285.60px) {
+
+        .paysagespic, .portraitpic{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .portraitpic img{
+            width: 450px;
+            height: 300px;
+        }
+
+    }
+#div1 h2{font-family: 'Montserrat', sans-serif;
+        font-size: 3em;
+        color: #A5B4FC;
+
+    }
