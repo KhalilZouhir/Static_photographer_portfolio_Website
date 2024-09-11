@@ -2,6 +2,8 @@
 Welcome to the Static Photographer Portfolio Website, a simple website designed to showcase a photographer's portfolio. This project consists of three HTML files and one CSS file,
 providing a structured and visually appealing platform to display photography work, share information about services, and offer a contact form for potential clients.
 
+![image](https://github.com/user-attachments/assets/2a2c7ea6-9baf-45ce-aa03-3fefedac2cc5)
+
 ## Project Overview
 The Static Photographer Portfolio Website is crafted to provide photographers with a professional online presence. It includes:
 
