@@ -15,4 +15,4 @@ To view the website locally on your machine, follow these steps:
 
 1- Clone the Repository :
 
-‘‘‘git clone https://github.com/KhalilZouhir/Static_photographer_portfolio_Website.git‘‘‘
+‘‘‘git clone https://github.com/KhalilZouhir/Static_photographer_portfolio_Website.git ‘‘‘
