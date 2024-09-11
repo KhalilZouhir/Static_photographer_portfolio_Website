@@ -15,4 +15,13 @@ To view the website locally on your machine, follow these steps:
 
 1- Clone the Repository :
 
-‘‘‘git clone https://github.com/KhalilZouhir/Static_photographer_portfolio_Website.git ‘‘‘
+‘‘‘git clone https://github.com/KhalilZouhir/Static_photographer_portfolio_Website.git
+
+### Explanation:
+- **Start** the code block with three backticks \(```\).
+- After the first three backticks, write `html` to indicate that the code block is HTML (or `python`, `css`, etc., for other languages).
+- **End** the code block with three backticks \(```\).
+
+This should work in GitHub and display the code properly formatted with syntax highlighting.
+
+Let me know if it works!
