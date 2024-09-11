@@ -13,15 +13,27 @@ The Static Photographer Portfolio Website is crafted to provide photographers wi
 ## Installation
 To view the website locally on your machine, follow these steps:
 
-1- Clone the Repository :
+Clone the Repository :
+git clone https://github.com/KhalilZouhir/Static_photographer_portfolio_Website.git
 
-‘‘‘git clone https://github.com/KhalilZouhir/Static_photographer_portfolio_Website.git
+## Open the Website
+Open index.html in your preferred web browser.
+Right-click the index.html file and select "Open with" followed by your browser choice.
 
-### Explanation:
-- **Start** the code block with three backticks \(```\).
-- After the first three backticks, write `html` to indicate that the code block is HTML (or `python`, `css`, etc., for other languages).
-- **End** the code block with three backticks \(```\).
+## Usage
+Once you've opened the website:
 
-This should work in GitHub and display the code properly formatted with syntax highlighting.
+* Home Page (index.html): Get an overview of the photographer's style and recent work. Use the navigation bar to explore other sections.
+* About Page (a-propos.html): Learn more about the photographer's experience, services offered, and pricing.
+* Portfolio Page (portfolio.html): Browse through categorized galleries of landscape and portrait photography.
+* Contact Section: Fill out the contact form to send a message regarding potential projects or inquiries.
 
-Let me know if it works!
+## Contact
+For any inquiries or feedback, please reach out:
+
+Email: Khalilz@hotmail.fr
+Linkdin: https://www.linkedin.com/in/khalil-zouhir-92382b236
+
+
+
+
